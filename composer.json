@@ -1,0 +1,24 @@
+{
+    "name": "baghayi/php-bijective-encoder",
+    "description": "Bijective encoder & decoder Written for PHP",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hossein Baghayi",
+            "email": "hossein.baghayi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Baghayi\\BijectiveEncoder\\": "src/"
+        }
+    }
+}
